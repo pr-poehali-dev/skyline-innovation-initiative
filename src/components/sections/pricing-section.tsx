@@ -3,18 +3,18 @@ import { Check } from "lucide-react"
 
 const plans = [
   {
-    name: "Старт",
-    price: "1 200",
-    period: " руб/мес",
-    description: "Для личного портфолио",
-    features: ["5 страниц", "Свой домен", "Базовая аналитика", "Поддержка по email"],
+    name: "Малая вмятина",
+    price: "от 1 500",
+    period: " ₽",
+    description: "Вмятина до 5 см, без повреждения ЛКП",
+    features: ["Устраняется за 1 час", "Без покраски", "Гарантия результата", "Выезд к клиенту"],
   },
   {
-    name: "Про",
-    price: "2 900",
-    period: " руб/мес",
-    description: "Для растущих авторов",
-    features: ["Безлимит страниц", "Приоритет поддержки", "Расширенная аналитика", "Свой брендинг", "Работа в команде"],
+    name: "Сложный случай",
+    price: "от 3 500",
+    period: " ₽",
+    description: "Несколько вмятин или сложные участки",
+    features: ["Крыло, капот, крыша", "Вмятины после града", "Работа в тот же день", "Фото до и после", "Гарантия 12 месяцев"],
     popular: true,
   },
 ]
@@ -29,8 +29,8 @@ export function PricingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Простые и понятные цены</h2>
-          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Начните бесплатно, платите когда готовы.</p>
+          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Честные цены на PDR</h2>
+          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Стоимость зависит от размера и сложности вмятины. Точную цену скажем после осмотра.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -75,7 +75,7 @@ export function PricingSection() {
                     : "bg-secondary text-foreground hover:bg-accent/30"
                 }`}
               >
-                Начать
+                Записаться
               </button>
             </motion.div>
           ))}

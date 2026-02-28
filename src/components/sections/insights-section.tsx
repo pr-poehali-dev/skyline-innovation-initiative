@@ -5,24 +5,24 @@ import { ArrowRight } from "lucide-react"
 
 const articles = [
   {
-    title: "Искусство визуального сторителлинга",
-    category: "Дизайн",
-    image: "/visual-storytelling-design-article.jpg",
+    title: "Что такое PDR и почему это лучший выбор?",
+    category: "О технологии",
+    image: "https://cdn.poehali.dev/projects/7c91798c-5f1d-4082-a9b0-dc576276bf37/files/b380b074-7108-4470-ad86-d2b5e81f6ac4.jpg",
   },
   {
-    title: "Как создать личный бренд онлайн",
-    category: "Стратегия",
-    image: "/personal-branding-digital-marketing.jpg",
+    title: "Как вмятина влияет на стоимость автомобиля",
+    category: "Советы",
+    image: "https://cdn.poehali.dev/projects/7c91798c-5f1d-4082-a9b0-dc576276bf37/files/03d9535b-012a-44ec-80ce-8c7dfea6c69a.jpg",
   },
   {
-    title: "Тренды типографики 2025",
-    category: "Типографика",
-    image: "/typography-trends-modern-fonts.jpg",
+    title: "Какие вмятины можно убрать без покраски",
+    category: "FAQ",
+    image: "https://cdn.poehali.dev/projects/7c91798c-5f1d-4082-a9b0-dc576276bf37/files/ff27f98f-daaa-40ac-9145-758e9fdf14b0.jpg",
   },
   {
-    title: "Минимализм в дизайне портфолио",
-    category: "Вдохновение",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "PDR vs кузовной ремонт: сравниваем цены",
+    category: "Сравнение",
+    image: "https://cdn.poehali.dev/projects/7c91798c-5f1d-4082-a9b0-dc576276bf37/files/7bea35fa-4ee7-4ca5-a31c-22ed1549bcd1.jpg",
   },
 ]
 
@@ -43,7 +43,7 @@ export function InsightsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Статьи
+          Полезно знать
         </motion.p>
 
         <div className="divide-y divide-border">
