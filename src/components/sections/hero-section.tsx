@@ -29,7 +29,7 @@ export function HeroSection() {
       {/* Stacked images */}
       <div className="relative flex items-center justify-center">
         <motion.div
-          className="absolute w-[280px] md:w-[320px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
+          className="absolute w-[360px] md:w-[440px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
           style={{ rotate: rotate1, x: x1, y, zIndex: 1 }}
           initial={{ clipPath: "inset(100% 0 0 0)" }}
           animate={{ clipPath: "inset(0 0 0 0)" }}
@@ -43,7 +43,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="relative w-[280px] md:w-[320px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
+          className="relative w-[360px] md:w-[440px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
           style={{ rotate: rotate2, y, zIndex: 2 }}
           initial={{ clipPath: "inset(100% 0 0 0)" }}
           animate={{ clipPath: "inset(0 0 0 0)" }}
@@ -57,7 +57,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="absolute w-[280px] md:w-[320px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
+          className="absolute w-[360px] md:w-[440px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
           style={{ rotate: rotate3, x: x3, y, zIndex: 1 }}
           initial={{ clipPath: "inset(100% 0 0 0)" }}
           animate={{ clipPath: "inset(0 0 0 0)" }}
